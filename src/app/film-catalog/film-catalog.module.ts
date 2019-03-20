@@ -4,9 +4,9 @@ import { MainComponent } from './main/main.component';
 import { FilmsComponent } from './films/films.component';
 import { FormsModule } from '@angular/forms';
 import { DetailsComponent } from './details/details.component';
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   imports: [
@@ -16,10 +16,6 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatButtonModule,
     MatGridListModule
   ],
-  declarations: [
-    MainComponent, 
-    FilmsComponent, 
-    DetailsComponent
-  ]
+  declarations: [MainComponent, FilmsComponent, DetailsComponent]
 })
-export class FilmCatalogModule { }
+export class FilmCatalogModule {}
