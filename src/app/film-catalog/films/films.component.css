@@ -1,6 +1,17 @@
 .example-card {
-    max-width: 400px;
-  }
+  max-width: 400px;
+}
 
 
-  div {color: red}
+div {
+  color: red
+}
+
+mat-grid-list {
+  outline: 3px solid lightgreen;
+
+}
+
+mat-grid-tile {
+  outline: 3px solid lightblue;
+}
